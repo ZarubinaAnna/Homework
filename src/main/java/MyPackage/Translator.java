@@ -2,22 +2,24 @@ package MyPackage;
 
 public abstract class Translator {
 
-    private String phrase;
+
+
+    private String translate;
 
     public Translator() {
     }
 
-    public Translator(String phrase) {
+    public Translator(String translate) {
 
-        this.phrase = phrase;
+        this.translate = translate;
     }
 
-    public String getPhrase() {
-        return phrase;
+    public String getTranslate() {
+        return "Я переводчик с " + translate;
     }
 
-    public void setPhrase(String phrase) {
-        this.phrase = phrase;
+    public void setTranslate(String translate) {
+        this.translate = translate;
     }
 
     public abstract void saySmth();

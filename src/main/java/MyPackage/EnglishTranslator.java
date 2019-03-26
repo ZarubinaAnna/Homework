@@ -2,13 +2,13 @@ package MyPackage;
 
 public class EnglishTranslator extends Translator{
 
-  public EnglishTranslator(String phrase){
-      super(phrase);
+  public EnglishTranslator(String translate){
+      super(translate);
 
   }
 
     public EnglishTranslator() {
-        super("Я переводчик с английского");
+        super("английского");
     }
 
 
