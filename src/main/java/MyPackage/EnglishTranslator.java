@@ -2,8 +2,8 @@ package MyPackage;
 
 public class EnglishTranslator extends Translator{
 
-  public EnglishTranslator(String translate){
-      super(translate);
+  public EnglishTranslator(String language){
+      super(language);
 
   }
 

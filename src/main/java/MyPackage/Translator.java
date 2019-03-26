@@ -4,22 +4,22 @@ public abstract class Translator {
 
 
 
-    private String translate;
+    private String language;
 
     public Translator() {
     }
 
-    public Translator(String translate) {
+    public Translator(String language) {
 
-        this.translate = translate;
+        this.language = language;
     }
 
-    public String getTranslate() {
-        return "Я переводчик с " + translate;
+    public String getLanguage() {
+        return "Я переводчик с " + language;
     }
 
-    public void setTranslate(String translate) {
-        this.translate = translate;
+    public void setLanguage(String language) {
+        this.language = language;
     }
 
     public abstract void saySmth();
